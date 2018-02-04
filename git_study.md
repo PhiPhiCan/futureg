@@ -1,6 +1,6 @@
 # git 使用方法总结
 
-## 分支代码提交
+## 1.分支代码提交
 
 ### 创建分支
 >	git branch test 
@@ -17,3 +17,14 @@
 
 ### 分支上传
 >	git push origin test
+## 2.git add使用方法
+
+### 2.1 git add *
+
+	    | new file | modified files | Deleted files
+	----| -------- | -------------- | -------------
+	git add -A | OK | OK | OK
+	git add .  | OK | OK | NO
+	git add -u | NO | OK | OK
+	
+
