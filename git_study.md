@@ -26,4 +26,9 @@ git add -A|OK|OK|OK
 git add .|OK|OK|NO
 git add -u|NO|OK|OK
 	
+## 3.git merge 之squash
+>	含义：主要影响的是代码提交的历史
+	- git merge --squash another
+	- another分支的commit历史没有意思，不作为后面的commit历史记录
+
 
