@@ -1,3 +1,6 @@
+#学习计划_v00
+
+> 从github上jwasham/coding-interview-university拷贝的，待根据自己实际实际情况进	行进一步的修改 
 
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
