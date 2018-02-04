@@ -43,13 +43,13 @@ git add -u|NO|OK|OK
 	本地代码回滚
 
 ### 4.4 远端代码回滚的操作流程
->	1. git checkout the_branch
->	2. git pull
->	3. git branch the_branch_backup
->	4. git reset --hard the_commit_id
->	5. git push origin :the branch
->	6. git push origin the branch 
->	7. git pusch origin :the_branch_backup
+- 1. git checkout the_branch
+- 2. git pull
+- 3. git branch the_branch_backup
+- 4. git reset --hard the_commit_id
+- 5. git push origin :the branch
+- 6. git push origin the branch 
+- 7. git pusch origin :the_branch_backup
 
 
 
