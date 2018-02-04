@@ -21,7 +21,7 @@
 
 ### 2.1 git add *
 
-	    | new file | modified files | Deleted files
+	command | new file | modified files | Deleted files
 	----| -------- | -------------- | -------------
 	git add -A | OK | OK | OK
 	git add .  | OK | OK | NO
