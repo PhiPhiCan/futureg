@@ -51,5 +51,6 @@ git add -u|NO|OK|OK
 - 6. git push origin the branch 
 - 7. git pusch origin :the_branch_backup
 
-
+### 5.git commit --rebase的理解
+- [git commit --rebase](https://www.cnblogs.com/wangiqngpei557/p/6056624.html)
 
