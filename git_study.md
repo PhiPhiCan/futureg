@@ -31,4 +31,25 @@ git add -u|NO|OK|OK
 	- git merge --squash another
 	- another分支的commit历史没有意思，不作为后面的commit历史记录
 
+## 4.删除本地分支和远端分支，本地分支代码回滚及远端分支代码回滚
+
+### 4.1 git branch -D br	
+	删除本地分支
+
+### 4.2 git push origin :br (origin 后面有空格)
+	删除远程分支
+
+### 4.3 git reset --hard commit-id
+	本地代码回滚
+
+### 4.4 远端代码回滚的操作流程
+>	git checkout the_branch
+	git pull
+	git branch the_branch_backup
+	git reset --hard the_commit_id
+	git push origin :the branch
+	git push origin the branch 
+	git pusch origin :the_branch_backup
+
+
 
