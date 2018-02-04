@@ -21,10 +21,10 @@
 
 ### 2.1 git add *
 
-	command | new file | modified files | Deleted files
-	- | - | - | - 
-	git add -A | OK | OK | OK
-	git add .  | OK | OK | NO
-	git add -u | NO | OK | OK
+	command|new file|modified files|Deleted files
+	-|-|-|- 
+	git add -A|OK|OK|OK
+	git add .|OK|OK|NO
+	git add -u|NO|OK|OK
 	
 
